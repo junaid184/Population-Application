@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Bio Data </h1>
+    <h2 id="total"></h2>
+    <div class="card-body">
+        <form action="#" id="myform">
+            <input type="text" id="name" placeholder="Enter Your Name" >
+        <input type="text" id="address" placeholder="Enter Your Address" >
+        <select name="profession" id="prof">
+            <option value="0"> Select your profession </option>
+            <option value="Doctor"> Doctor </option>
+            <option value="Engineer"> Engineer </option>
+        </select>
+        <select name="Education" id="edu">
+            <option value="0"> select your education </option>
+            <option value="Matric"> matric </option>
+            <option value="Graduation"> graduation </option>
+        </select>
+        <input type="submit" value='save' class='btn btn-success'>
+        </form>
+    </div>
+    
+    <table class='table'>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Profession</th>
+            <th>Education</th>
+        </tr>
+        <tbody id='display'>
+
+
+            <!-- <tr>
+                <td>Junaid</td>
+                <td>address </td>
+                <td>Engineer</td>
+                <td>graduation</td>
+                <td><button class='btn btn-danger'>X</button></td>
+            </tr> -->
+        </tbody>
+    </table>
+    <script src="app.js"></script>
+</body>
+</html>
